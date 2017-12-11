@@ -1,3 +1,9 @@
+import _ from 'lodash';
+
+console.log(
+  _.join(['Calc', 'module', 'loaded!'], ' ')
+);
+
 export function add(a, b) {
   return a + b;
 }
